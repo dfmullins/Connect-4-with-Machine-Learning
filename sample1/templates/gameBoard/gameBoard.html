@@ -1,0 +1,17 @@
+<div>
+	<table id="gameBoard" class="gameBoard">
+	{% for row in rows %}
+		<tr>
+		{% for cell in cells %}
+		    <td id="r{{ row }}c{{ cell }}" 
+				data-chosenBy=""
+				data-blocked="1" 
+				data-order="" 
+				class="cell">
+				&nbsp;				
+		    </td>
+		{% endfor %}
+		</tr>
+	{% endfor %}
+	</table>
+</div>

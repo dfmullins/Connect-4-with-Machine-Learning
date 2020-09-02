@@ -1,0 +1,16 @@
+<body>
+	<form>
+		{% csrf_token %}
+		{% include "shared/mainmenu.html" %}
+		<div id="winsLosses" class="winsLosses">
+			Player wins: <span id="playerWins">0</span>
+			&nbsp;
+			Computer wins: <span id="compWins">0</span>
+			&nbsp;
+			Draw: <span id="draws">0</span>
+		</div>
+		<div id="msgCont" class="msgCont"></div>
+		<div id="gameBoardCont" class="gameBoardCont">
+		</div>
+	</form>
+</body>

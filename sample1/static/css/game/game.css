@@ -1,0 +1,30 @@
+.msgCont {
+	position: relative;
+    top: 77px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.gameBoardCont {
+	display: table;
+    margin: 150px auto 50px auto;
+}
+
+.gameBoard {
+	border-collapse: collapse;
+	margin: 10px;
+}
+
+.gameBoard td {
+	border: solid 1px #333;
+	padding: 35px;
+	cursor: pointer;
+}
+
+.mOptions {
+	cursor: pointer;
+}
+
+.mOptions:hover {
+	text-decoration: underline;
+}

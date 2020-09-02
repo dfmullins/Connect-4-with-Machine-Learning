@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Python Sample</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/shared/shared.css' %}?id={{ rand }}">
+{{ css|safe }}
+</head>

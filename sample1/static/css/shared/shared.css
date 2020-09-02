@@ -1,0 +1,19 @@
+html, body {
+	font-family: 'Lato';
+}
+
+.mainMenu {
+	text-align: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mainMenu div {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 32px;
+	white-space: nowrap;
+}
